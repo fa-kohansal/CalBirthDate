@@ -11,9 +11,11 @@ function ageCalculator() {
 
       return false;   
 
-    }   
-    else {  
 
+    } 
+
+    else {  
+    
     var dobYear = dob.getYear();  
 
     var dobMonth = dob.getMonth();  
@@ -37,6 +39,7 @@ function ageCalculator() {
 
     if (currentMonth >= dobMonth)  
       var monthAge = currentMonth - dobMonth;  
+    
 
     else {  
 
@@ -83,9 +86,13 @@ function ageCalculator() {
 
         
 
-    if ( (age.years > 0) && (age.months > 0) && (age.days > 0) )  
+    if ( (age.years > 0) && (age.months > 0) && (age.days > 0) ) 
+       ageString = age.years + " years, " + age.months + " months, and " + age.days + " days old."; 
+        
 
-       ageString = age.years + " years, " + age.months + " months, and " + age.days + " days old.";  
+
+
+       
 
     else if ( (age.years == 0) && (age.months == 0) && (age.days > 0) )  
 
@@ -115,9 +122,7 @@ function ageCalculator() {
     else ageString = "Welcome to Earth! <br> It's first day on Earth!";   
 
   
-
-
-    return document.getElementById("result").innerHTML = ageString;   
+    return document.getElementById("result").innerHTML = ageString
 
                
 

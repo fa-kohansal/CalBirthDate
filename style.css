@@ -36,4 +36,5 @@
     text-align: center;
     color: #F05454;
     margin: 24px 0 ;
+    animation: flash forwards infinite linear 3000ms;
 }
