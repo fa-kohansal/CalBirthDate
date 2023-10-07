@@ -79,3 +79,12 @@
     color: #F05454;
     border: 1px solid #F05454;
 }
+.project>h3{
+    width: 100%;
+    margin-top: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #30475E;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px #30475e9a;
+    animation:backInUp forwards  linear 3000ms ;
+}
