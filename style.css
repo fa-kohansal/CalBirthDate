@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 .project{
     width: 100%;
@@ -14,16 +15,18 @@
 }
 .project > h1{
     width: 100%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #30475E;
     text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 
 }
 .project > h4{
     width: 100%;
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #222831;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .project > h4>input{
     border: none;
@@ -36,5 +39,43 @@
     text-align: center;
     color: #F05454;
     margin: 24px 0 ;
+    font-family: 'Courier New', Courier, monospace;
+
     animation: flash forwards infinite linear 3000ms;
+}
+.project .btn1{
+    padding: 16px 32px;
+    border: none;
+    background-color: #30475E;
+    color: #DDDDDD;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 300ms linear;
+}
+.project .btn1:hover{
+    background-color: #DDDDDD;
+    color: #30475E;
+    border: 1px solid #30475E ;
+    font-weight: 600;
+}
+.project .btn2{
+    width: 48px ;
+    height: 48px;
+    font-size: 32px;
+    color: #DDDDDD;
+    background-color: #F05454;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 16px;
+    text-align: center;
+    transition: all 300ms linear;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.project .btn2:hover{
+    background-color: #DDDDDD;
+    color: #F05454;
+    border: 1px solid #F05454;
 }

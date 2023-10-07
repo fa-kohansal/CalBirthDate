@@ -129,5 +129,7 @@ function ageCalculator() {
   }  
 
 }  
- 
+// function reload(){
+//   location.reload()
+// } 
     
